@@ -18,13 +18,13 @@
 		<supportunicode>1</supportunicode>
 		<supportcheckdelivery>0</supportcheckdelivery>
 		<captcha>1</captcha>
-		<gateurl>http://megacom.kg/rus/freesms/</gateurl>
+		<gateurl>https://megapage.megacom.kg/sms/sendsms.php</gateurl>
 	</info>
 	<classprops>
 		<encoding>UTF-8</encoding>
-		<pageurl>http://megacom.kg/rus/freesms/</pageurl>
-		<imageurl>eval('http://megacom.kg/captcha/index/'+Html.RegExp('src=&quot;\/captcha\/index\/(.*?)&quot;',1))</imageurl>
-		<posturl>http://megacom.kg/rus/freesms/index/sendsms/</posturl>
+		<pageurl>https://megapage.megacom.kg/sms/sendsms.php</pageurl>
+		<imageurl>eval('https://megapage.megacom.kg/kcaptcha/'+Html.RegExp('src=&quot;\/captcha\/index\/(.*?)&quot;',1))</imageurl>
+		<posturl>https://megapage.megacom.kg/sms/sendsms.php</posturl>
 		<multipart>1</multipart>
 		<postdata>eval(
 						var
