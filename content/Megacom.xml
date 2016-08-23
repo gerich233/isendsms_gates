@@ -23,6 +23,7 @@
 	<classprops>
 		<encoding>UTF-8</encoding>
 		<pageurl>https://megapage.megacom.kg/sms/sendsms.php</pageurl>
+		
 		<imageurl>eval('https://megapage.megacom.kg/kcaptcha/'+Html.RegExp('src=&quot;\/captcha\/index\/(.*?)&quot;',1))</imageurl>
 		<posturl>https://megapage.megacom.kg/sms/sendsms.php</posturl>
 		<multipart>1</multipart>
